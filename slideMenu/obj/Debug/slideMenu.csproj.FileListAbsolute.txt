@@ -1,0 +1,15 @@
+C:\Users\Alex.kishikawa\source\repos\slideMenu\bin\Debug\slideMenu.exe.config
+C:\Users\Alex.kishikawa\source\repos\slideMenu\bin\Debug\slideMenu.exe
+C:\Users\Alex.kishikawa\source\repos\slideMenu\bin\Debug\slideMenu.pdb
+C:\Users\Alex.kishikawa\source\repos\slideMenu\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Alex.kishikawa\source\repos\slideMenu\bin\Debug\MahApps.Metro.IconPacks.Modern.dll
+C:\Users\Alex.kishikawa\source\repos\slideMenu\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\Alex.kishikawa\source\repos\slideMenu\bin\Debug\MahApps.Metro.IconPacks.Modern.xml
+C:\Users\Alex.kishikawa\source\repos\slideMenu\obj\Debug\slideMenu.csproj.AssemblyReference.cache
+C:\Users\Alex.kishikawa\source\repos\slideMenu\obj\Debug\slideMenu.Form1.resources
+C:\Users\Alex.kishikawa\source\repos\slideMenu\obj\Debug\slideMenu.Properties.Resources.resources
+C:\Users\Alex.kishikawa\source\repos\slideMenu\obj\Debug\slideMenu.csproj.GenerateResource.cache
+C:\Users\Alex.kishikawa\source\repos\slideMenu\obj\Debug\slideMenu.csproj.CoreCompileInputs.cache
+C:\Users\Alex.kishikawa\source\repos\slideMenu\obj\Debug\slideMenu.csproj.CopyComplete
+C:\Users\Alex.kishikawa\source\repos\slideMenu\obj\Debug\slideMenu.exe
+C:\Users\Alex.kishikawa\source\repos\slideMenu\obj\Debug\slideMenu.pdb

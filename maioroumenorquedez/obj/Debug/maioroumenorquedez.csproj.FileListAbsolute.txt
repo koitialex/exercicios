@@ -1,0 +1,10 @@
+C:\Users\Alex.kishikawa\source\repos\ProgramadorDeSistemas\maioroumenorquedez\bin\Debug\maioroumenorquedez.exe.config
+C:\Users\Alex.kishikawa\source\repos\ProgramadorDeSistemas\maioroumenorquedez\bin\Debug\maioroumenorquedez.exe
+C:\Users\Alex.kishikawa\source\repos\ProgramadorDeSistemas\maioroumenorquedez\bin\Debug\maioroumenorquedez.pdb
+C:\Users\Alex.kishikawa\source\repos\ProgramadorDeSistemas\maioroumenorquedez\obj\Debug\maioroumenorquedez.csproj.AssemblyReference.cache
+C:\Users\Alex.kishikawa\source\repos\ProgramadorDeSistemas\maioroumenorquedez\obj\Debug\maioroumenorquedez.Form1.resources
+C:\Users\Alex.kishikawa\source\repos\ProgramadorDeSistemas\maioroumenorquedez\obj\Debug\maioroumenorquedez.Properties.Resources.resources
+C:\Users\Alex.kishikawa\source\repos\ProgramadorDeSistemas\maioroumenorquedez\obj\Debug\maioroumenorquedez.csproj.GenerateResource.cache
+C:\Users\Alex.kishikawa\source\repos\ProgramadorDeSistemas\maioroumenorquedez\obj\Debug\maioroumenorquedez.csproj.CoreCompileInputs.cache
+C:\Users\Alex.kishikawa\source\repos\ProgramadorDeSistemas\maioroumenorquedez\obj\Debug\maioroumenorquedez.exe
+C:\Users\Alex.kishikawa\source\repos\ProgramadorDeSistemas\maioroumenorquedez\obj\Debug\maioroumenorquedez.pdb

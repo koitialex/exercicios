@@ -1,0 +1,10 @@
+C:\Users\Alex.kishikawa\source\repos\ArraysBidimensional\bin\Debug\ArraysBidimensional.exe.config
+C:\Users\Alex.kishikawa\source\repos\ArraysBidimensional\bin\Debug\ArraysBidimensional.exe
+C:\Users\Alex.kishikawa\source\repos\ArraysBidimensional\bin\Debug\ArraysBidimensional.pdb
+C:\Users\Alex.kishikawa\source\repos\ArraysBidimensional\obj\Debug\ArraysBidimensional.csproj.AssemblyReference.cache
+C:\Users\Alex.kishikawa\source\repos\ArraysBidimensional\obj\Debug\ArraysBidimensional.frmBidimensional.resources
+C:\Users\Alex.kishikawa\source\repos\ArraysBidimensional\obj\Debug\ArraysBidimensional.Properties.Resources.resources
+C:\Users\Alex.kishikawa\source\repos\ArraysBidimensional\obj\Debug\ArraysBidimensional.csproj.GenerateResource.cache
+C:\Users\Alex.kishikawa\source\repos\ArraysBidimensional\obj\Debug\ArraysBidimensional.csproj.CoreCompileInputs.cache
+C:\Users\Alex.kishikawa\source\repos\ArraysBidimensional\obj\Debug\ArraysBidimensional.exe
+C:\Users\Alex.kishikawa\source\repos\ArraysBidimensional\obj\Debug\ArraysBidimensional.pdb
