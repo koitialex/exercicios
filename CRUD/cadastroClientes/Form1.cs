@@ -287,5 +287,61 @@ namespace cadastroClientes
 
             txtNomeCompleto.Focus();
         }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            excluir_cliente();
+        }
+
+        private void btnExcluirCliente_Click(object sender, EventArgs e)
+        {
+            excluir_cliente();
+        }
+        private void excluir_cliente()
+        {
+            MessageBox.Show("Excluir esse item");
+            try
+            {
+                DialogResult opcaoDigitada = MessageBox.Show("Tem certeza que deseja excluir o registro de código:?" + codigo_cliente, "Tem certeza?", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (opcaoDigitada == DialogResult.Yes)
+                {
+                    //conexão com comando de dados para apagar a informação desejada
+                    Conexao = new MySqlConnection(data_source);
+                    Conexao.Open();
+                    MySqlCommand cmd = new MySqlCommand();
+                    cmd.Connection = Conexao;
+                    cmd.Prepare();
+                    cmd.CommandText = "DELETE FROM dadosdEcliente WHERE codigo = @codigo";
+                    cmd.Parameters.AddWithValue("@codigo", codigo_cliente);
+                    cmd.ExecuteNonQuery();
+
+                    MessageBox.Show("Os dados do cliente foram EXCLUIDOS!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    carregar_clientes();
+                }
+            }
+
+            catch (MySqlException ex)
+            {
+                //Erro ao Mysql
+                MessageBox.Show("Erro:" + ex.Number + "Ocorreu:" + ex.Message, "Erro",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                //erro para outros tipos de erros
+                MessageBox.Show("Ocorreu: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+            finally
+            {
+                //garante que a conexão com o banco será fechada, mesmo se ocorrer erro
+                if (Conexao != null && Conexao.State == ConnectionState.Open)
+                {
+                    //conexão fechou com sucesso
+                    Conexao.Close();
+
+                }
+            }
+        }
     }
 }
