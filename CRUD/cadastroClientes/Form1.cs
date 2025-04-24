@@ -259,7 +259,9 @@ namespace cadastroClientes
         {
             ListView.SelectedListViewItemCollection clientedaselecao = lstCliente.SelectedItems;
 
-            foreach(ListViewItem item in clientedaselecao)
+            btnExcluirCliente.Visible = true;
+
+            foreach (ListViewItem item in clientedaselecao)
             {
                 //convete o texto que é retirado do banco de dados e transforma em número para amazenar em codigo_cliente
                 codigo_cliente = Convert.ToInt32(item.SubItems[0].Text);
@@ -286,6 +288,20 @@ namespace cadastroClientes
             txtCpf.Text = " ";
 
             txtNomeCompleto.Focus();
+            zera_formulario();
+
+        }
+        private void zera_formulario()
+        {
+            codigo_cliente = null;
+
+            txtNomeCompleto.Text = string.Empty;
+            txtNomeSocial.Text = " ";
+            txtEmail.Text = " ";
+            txtCpf.Text = " ";
+
+            txtNomeCompleto.Focus();
+            btnExcluirCliente.Visible = false;
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
@@ -317,6 +333,8 @@ namespace cadastroClientes
 
                     MessageBox.Show("Os dados do cliente foram EXCLUIDOS!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     carregar_clientes();
+                    zera_formulario();
+
                 }
             }
 
